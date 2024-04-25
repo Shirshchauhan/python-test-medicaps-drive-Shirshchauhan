@@ -14,5 +14,5 @@ class Solution(object):
             prev_value = curr_value
         
         return total
-        """
+           
         pass
