@@ -12,4 +12,4 @@ class Solution(object):
                 total += curr_value
             prev_value = curr_value
         
-        return total
+        return not stack
