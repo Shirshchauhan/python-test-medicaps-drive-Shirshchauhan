@@ -12,3 +12,17 @@ class Solution(object):
                 total += curr_value
             prev_value = curr_value
         return total
+    Create an instance of the Solution class
+solution = Solution()
+
+# Input value "III"
+output_1 = solution.romanToInt("III")
+print("Output 1:", output_1)  # Output: 3
+
+# Input value "LVIII"
+output_2 = solution.romanToInt("LVIII")
+print("Output 2:", output_2)  # Output: 58
+
+# Input value "MCMXCIV"
+output_3 = solution.romanToInt("MCMXCIV")
+print("Output 3:", output_3)  # Output: 1994
