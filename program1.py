@@ -2,8 +2,8 @@ class Solution(object):
     def isValid(self, s):
         """
     
-        stack = []
-        mapping = {')': '(', ']': '[', '}': '{'}
+      stack = []
+      mapping = {')': '(', ']': '[', '}': '{'}
         for char in s:
             if char in mapping.values():
                 stack.append(char)
