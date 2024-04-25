@@ -25,5 +25,5 @@ print("Output 2:", output_2)  # Output: 58
 
 # Input value "MCMXCIV"
 output_3 = solution.romanToInt("MCMXCIV")
-print("Output 3:", output_3)  
+print("Output 3:", output_3)
 # Output: 1994
