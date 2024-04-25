@@ -12,7 +12,7 @@ class Solution(object):
                 total += curr_value
             prev_value = curr_value
         return total
-    Create an instance of the Solution class
+   
 solution = Solution()
 
 # Input value "III"
