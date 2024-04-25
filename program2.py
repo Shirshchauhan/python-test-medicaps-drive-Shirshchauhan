@@ -11,4 +11,4 @@ class Solution(object):
             else:
                 total += curr_value
             prev_value = curr_value
-        return Total
+        return total
